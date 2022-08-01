@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+  <title>Regalia Digital Services - Contact</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/nav-styles.css"> 
+  <link rel="stylesheet" href="css/contactform.css">
+  <link rel="stylesheet" href="css/responsive.css"> 
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/button-animation.css">
+
+   
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light regalia-link bg-white">
+
+    <!--  Show this only on mobile to medium screens  -->
+      <a class="navbar-brand d-lg-none" href="index.html"><img src="img/logo-mobile.png" width="90%" alt="" class="wow animate__animated animate__fadeInDown " data-wow-delay="100ms"></a>
+    
+  
+
+      <button class="navbar-toggler" onclick="openNav()" type="button"  aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      
+      </button>
+    
+    <!--  Use flexbox utility classes to change how the child elements are justified  -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
+    
+        <ul class="navbar-nav">
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link active wow animate__animated animate__fadeInDown " data-wow-delay="100ms" href="index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link wow animate__animated animate__fadeInDown " data-wow-delay="100ms" href="about.html">ABOUT</a>
+          </li>
+        </ul>
+        
+        
+    <!--   Show this only lg screens and up   -->
+        <a class="navbar-brand d-none d-lg-block" style="margin-right: 0px !important; text-align: -webkit-center;" href="index.html"><img src="img/logo.png" width="70%" alt="" class="wow animate__animated animate__fadeInDown " data-wow-delay="100ms"></a>
+        
+        
+        
+        <ul class="navbar-nav">
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link wow animate__animated animate__fadeInDown " data-wow-delay="100ms" href="services.html">SERVICES</a>
+          </li>
+          <li class="nav-item z-nav-item active">
+            <a class="nav-link wow animate__animated animate__fadeInDown " data-wow-delay="100ms" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+ 
+
+
+  <!-- CONTENT FOR MENU -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" style="color: #0B3954;">Contact Us</a>
+    </div>
+  </div>
+
+
+
+
+<!-- *************************************************************************
+HEADER - ABOUT
+********************************************************************************-->
+<section class="section  header-contact">
+  <div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+          <h2 class="heading2 CondensedExtraBold text-white wow animate__animated animate__fadeInDown " data-wow-delay="100ms">CONTACT US</h2>
+          <p class="text-white  wow animate__animated animate__fadeInUp " data-wow-delay="100ms">If you're interested in learning more about how we can help your business, contact us here.</p>
+        </div>
+      
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT FORM -->
+
+<div class="contact-container">
+    <div class="container">
+      <form action="contact.php" method="post" role="form" class="hp-email-form contact-form contactform" novalidate="novalidate">
+        <div class="form-area">
+
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your name" class="form-control">
+
+            </div>
+            <div class="form-group mt-20">
+                <input type="email" name="email" placeholder="Enter your email" class="form-control">
+
+            </div>
+            <div class="form-group textarea-group mt-20">
+                <textarea name="message" id="#" cols="30" rows="5" placeholder="Enter your message" class="form-control"></textarea>
+
+            </div>
+
+            <!--VALIDATION Captcha Code-->
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="form-group mt-20" style="padding-top: 0px">
+                        <div class="comment-form__input-box" style="width:100%;">
+                            <input type="text" name="captchacode" placeholder="Security Check" id="validation-code" style="width: 100%;" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 pl-0">
+                    <div class="form-group mt-20 cstm-group">
+
+                        <img class="img-fluid" src="verification.php/rand=<?php echo rand(); ?>" id="captcha_image" style="width:26%; border-radius:10px; height: 45px; ">
+                        <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:#000;text-decoration: underline;">click here</a> to refresh</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-12 pr-0 text-left">
+
+                    <button class="default-btn contact-btn disabled  " type="submit" id="sendMessageButton" style="margin-top:0px;border:0px;top:0px;">Submit Message</button>
+
+                </div>
+            </div>
+
+
+
+
+            <!-------------- reCaptcha Button  ----------------->
+            <div class="form-group mt-20">
+
+            </div>
+
+
+
+            <!-------------------Captcha Script------------------------------>
+            <script>
+                //Refresh Captcha
+                function refreshCaptcha(){
+                    var img = document.images['captcha_image'];
+                    img.src = img.src.substring(
+                        0,img.src.lastIndexOf("?")
+                    )+"?rand="+Math.random()*1000;
+                }
+            </script>
+
+        </div>
+    </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- *************************************************************************
+FOOTER
+********************************************************************************-->
+<footer class="footer ">
+  <div class="container">
+    <div class="row d-flex justify-content-center pt-5">
+      <img src="img/logo-w.png" alt="">
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div  class="  footer-link ">
+        <ul class="navbar-nav z-navbar-nav d-flex flex-row justify-content-center justify-content-sm-center justify-content-lg-end text-light">
+          <li class="nav-item z-nav-item "><a href="index.html" class="nav-link text-light">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item z-nav-item "><a href="about.html" class="nav-link text-light scroll-link">About</a></li>
+          <li class="nav-item z-nav-item "><a href="services.html" class="nav-link text-light scroll-link" >Services</a></li>
+          <li class="nav-item z-nav-item "><a href="contact.html" class="nav-link text-light scroll-link">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center"><p class="text-light pb-3">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Regalia Digital Services. All Rights Reserved.</p></div>
+  </div>
+</footer>
+  
+  
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  
+    
+    </script>
+  </body>
+  </html>

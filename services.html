@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon_io/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon_io/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon_io/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon_io/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon_io/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon_io/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon_io/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon_io/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon_io/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon_io/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon_io/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">  <meta name="msapplication-TileImage" content="img/favicon_io/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Cypher Solutions - Services</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/nav-styles.css"> 
+  <link rel="stylesheet" href="css/contactform.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/responsive.css"> 
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/button-animation.css">
+  <link rel="stylesheet" href="css/customButton.css">
+   
+</head>
+<body>
+
+
+    <!-- NAVBAR 1-->
+    <nav
+      class="z-navbar1 navbar navbar-expand-lg py-3 navbar-light  shadow-  fixed-top onscroll-show"
+      animate="nav1"
+      id="navbar1"
+    >
+      <div class="container z-navbar-container">
+        <a href="index.html" class="navbar-brand">
+          <!-- Logo Image -->
+          <img
+            src="img/logo.png"
+            width="100%"
+            alt=""
+            class="d-inline-block align-middle mr-2  wow animate__animated animate__fadeInDown " data-wow-delay="100ms"
+          />
+          <!-- Logo Text --><!-- 
+      <span class="text-uppercase font-weight-bold">Company</span> -->
+        </a>
+
+        <button
+          type="button"
+          data-toggle="collapse"
+          onclick="openNav()" type="button"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler mr-3"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav z-navbar-nav ml-auto text-uppercase">
+            <li class="nav-item z-nav-item ">
+              <a href="index.html" class="nav-link  wow animate__animated animate__fadeInDown " data-wow-delay="100ms"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item z-nav-item ">
+              <a href="about.html" class="nav-link scroll-link  wow animate__animated animate__fadeInDown " data-wow-delay="200ms">About</a>
+            </li>
+            <li class="nav-item z-nav-item active">
+              <a href="services.html" class="nav-link scroll-link  wow animate__animated animate__fadeInDown " data-wow-delay="300ms">Services</a>
+            </li>
+            <!-- <li class="nav-item z-nav-item">
+              <a href="" class="nav-link scroll-link">Testimonials</a>
+            </li> -->
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn js__btn-violet rounded-0  wow animate__animated animate__fadeInDown " data-wow-delay="400ms"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Contact Us
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVBAR 2 ONSCROLL -->
+    <nav
+      class="navbar navbar-expand-lg py-3 navbar-dark z-navbar-bg-onscroll z-navbar2 shadow- fixed-top"
+      animate="nav2"
+      id="navbar2"
+    >
+      <div class="container-fluid z-navbar-container-onscroll">
+        <a href="index.html" class="navbar-brand">
+          <!-- Logo Image -->
+          <img
+            src="img/logo2.png"
+            width="100%"
+            alt=""
+            class="d-inline-block align-middle mr-2"
+          />
+          <!-- Logo Text --><!-- 
+      <span class="text-uppercase font-weight-bold">Company</span> -->
+        </a>
+
+        <button
+          type="button"
+          data-toggle="collapse"
+          onclick="openNav()" type="button"
+          aria-label="Toggle navigation"
+          class="navbar-toggler mr-3"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarSupportedContent2" class="collapse navbar-collapse">
+          <ul class="navbar-nav z-navbar-nav ml-auto text-uppercase">
+            <li class="nav-item z-nav-item ">
+              <a href="index.html" class="nav-link"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item z-nav-item ">
+              <a href="about.html" class="nav-link scroll-link">About</a>
+            </li>
+            <li class="nav-item z-nav-item active">
+              <a href="services.html" class="nav-link scroll-link">Services</a>
+            </li>
+            <!-- <li class="nav-item z-nav-item">
+              <a href="" class="nav-link scroll-link">Testimonials</a>
+            </li> -->
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn js__btn-violet rounded-0"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Contact Us
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+ 
+
+
+  <!-- CONTENT FOR MENU -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="#contact" style="color: #0B3954;">Contact Us</a>
+    </div>
+  </div>
+
+
+  <!-- CONTACT FORM -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title heading3" id="exampleModalLongTitle">CYPHER SOLUTIONS</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <form class="shake contact__form" role="form" method="post" action="contact.php" id="contactForm" name="contact-form" data-toggle="validator">
+             <!-- form message -->
+                              <div class="row">
+                                  <div class="col-12">
+                                      <div class="contact__msg" style="display: none">
+                                          <p>Your message was sent successfully.</p>
+                                      </div>
+                                  </div>
+                              </div>
+            <!-- end message -->
+
+            <!-- Name -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- email -->
+            <div class="form-group label-floating">
+              <label class="control-label" for="email">Email</label>
+              <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+              <div class="help-block with-errors"></div>
+            </div>
+            <!-- Subject -->
+            <div class="form-group label-floating">
+              <label class="control-label">Subject</label>
+              <input class="form-control" id="subject" type="text" name="subject" required data-error="Please enter your subject">
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group label-floating">
+                <label for="message" class="control-label">Message</label>
+                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                <div class="help-block with-errors"></div>
+            </div>
+
+                         <!--VALIDATION Captcha Code-->
+
+                      <div class="col-lg-6 pl-0">
+                          <div class="form-group mt-20 cstm-group">
+            
+                              <img class="img-fluid" src="verification.php/rand=<?php echo rand(); ?>" id="captcha_image" style="width:26%; border-radius:10px; height: 45px; ">
+                              <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:#000;text-decoration: underline;">click here</a> to refresh</p>
+            
+                          </div>
+                      </div>
+                      <div class="col-lg-12 pl-0 pr-0">
+                        <div class="form-group mt-20" style="padding-top: 0px">
+                            <div class="comment-form__input-box" style="width:100%;">
+                                <input type="text" name="captchacode" placeholder="Security Check" id="validation-code" style="width: 100%;" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+            <div class="modal-footer border-0">
+          <!-- Submit button -->
+            <button type="submit" class="btn btn--gradient hvr-fade mb-4 pl-5 pr-5">Send</button>
+        </div>
+        </form>
+       
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- *************************************************************************
+ABOUT HEADER
+********************************************************************************-->
+<section class="services-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-7 col-xl-7">
+        <h2 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">WHAT WE OFFER</h2>
+        <p class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">WORK WITH A LEADER IN PROTECTING YOUR MOST VALUABLE ASSETS </p>
+        
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- *************************************************************************
+SERVICES SECTION 1
+********************************************************************************-->
+<section class="services-section1">
+
+  <div class="container">
+    <div class="icon">
+      <h2 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Boost Your Network Security With Cypher</h2>
+    </div>
+    <div class="row">
+      
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  pl-md-2 pr-md-3 pl-lg-5 pr-lg-5 mb-5"><div class="border-top-green"></div><p class="text-white  wow animate__animated animate__fadeIn " data-wow-delay="100ms">Cypher Solutions offers a range of services to our clients, giving them the network they need to keep apace with all types of digital threats. With new scams and viruses on the rise, it's essential that businesses have the most robust system possible to make sure they always stay safe.</p></div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   pl-md-3 pr-md-2 pl-lg-5 pr-lg-5"><div class="border-top-black"></div><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Most companies fall victim to an attempted breach at some point, so choosing a cyber-security specialist is one of the best investments you can make. Without this, your staff may not have the necessary training or knowledge to tackle possible threats. For example, a team member believing a spam email might lead to network downtime.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- *************************************************************************
+SERVICES SECTION 2
+********************************************************************************-->
+<section class="services-section2">
+
+  <div class="container">
+    <div class="icon">
+      <h2 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Expert Network Guidance Tailored To You</h2>
+      
+    </div>
+    <div class="row">
+      
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  pl-md-2 pr-md-3 pl-lg-5 pr-lg-5 mb-5"><div class="border-top-black"></div><p class="text-white  wow animate__animated animate__fadeIn " data-wow-delay="100ms">Every service we provide is unique for each client because we understand that everyone's needs are different, especially regarding cyber-security and keeping your network safe. We don't give the same answers to everyone we work with – we take the time to understand what makes your company and its system unique.</p></div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   pl-md-3 pr-md-2 pl-lg-5 pr-lg-5"><div class="border-top-green"></div><p class=" wow animate__animated animate__fadeIn" data-wow-delay="100ms">By doing this, we can gain a far better understanding of what will help you, which often affects how we handle the network and the steps we can take to improve or protect it. Cypher values each client, and this approach is how we protect them from both danger and downtime.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- *************************************************************************
+SECTION 3 
+********************************************************************************-->
+<section class="services-section3"> 
+
+  <div class="container">
+    <div class="heading-container">
+      <h2 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Bespoke Cyber-Security Services</h2>
+      <div class="horizontal-line">
+        <div class="border-top-green"></div>
+        <div class="border-top-black"></div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Our flexible services can help clients discover flaws in their network or scams they would otherwise fall for. At every stage, we devote all our efforts to ensuring you can keep doing business online with nothing to worry about. If your company's system goes down at any time, you can potentially lose customers, meaning it's essential that you protect it sooner rather than later.</p>
+          <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">At Cypher, our policy is to provide every client with the best affordable help to defend their infrastructure and data from all digital threats. Our hands-on approach with each service guarantees you'll see results and that your team has all the tools they need to continue working uninterrupted and safely. </p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <img src="img/about-img4.png" class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms" alt="">
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- *************************************************************************
+SECTION 4
+********************************************************************************-->
+<section class="services-section4"> 
+
+  <div class="container">
+    <h2 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Our Cyber-Security <br>
+      Services Include:</h2>
+    <div class="row mb-5">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 gradient-margin">
+          <div class="gradient-container">
+            <img src="img/recovery.png" alt="">
+          </div>
+          
+        </div>
+        <div id="disaster" class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+          <div class="heading-container">
+            <h3 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Disaster Recovery</h3>
+            <div class="horizontal-line">
+              <div class="border-top-green"></div>
+              <div class="border-top-black"></div>
+            </div>
+          </div>
+          <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">If your business falls prey to an attack that leads to downtime, it's crucial that you have a plan ready to let you recover quickly. Even something as simple as a server crash could easily result in losing data, revenue, and productivity if you don't have a plan in place. When we begin working with a client, we take time to assess their infrastructure and how it works – including the mission-critical systems, which take priority in the recovery process. Learning about your architecture, we can understand the best path for protecting your data.</p>
+          <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Cypher can be instrumental in helping you put together a Disaster Recovery Plan – these are critical for any company. These plans work as a guide for resuming your operation after an incident, such as a DDoS attack. Even with the strongest cyber-security at your disposal, it's still vital that you make the proper preparations just in case. No two recovery plans are the same between businesses, so your staff cannot just follow online templates; they need professional help, and that is where we come in.</p>
+          <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">With our disaster recovery services, you can quickly bounce back from any downtime or setback.</p>
+        </div>
+
+    </div>
+    <div class="row mb-5">
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
+        <div class="heading-container">
+          <h3 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Expert Security Consultancy</h3>
+          <div class="horizontal-line">
+            <div class="border-top-green"></div>
+            <div class="border-top-black"></div>
+          </div>
+        </div>
+       <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Though every network is unique, we're aware of specific trends and commonalities, which still allow us to provide general recommendations about the state of your network. We all contend with cyber-security threats, and our advice can help protect you against them, letting your staff keep working and your customers keep browsing. Our passionate experts take security seriously, and you're always welcome to discuss your security needs with us – we'll only give you accurate and honest advice in return, and these recommendations could save the whole company from downtime.</p>
+       <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">On top of this, we can educate your staff on the many security threats circulating online, teaching them how to spot phishing scams, recognise spoofed emails that might seem to be from within the company and other security-related threats. Many security problems begin with human error – and the most significant step to preventing this is teaching staff how to react to anything that seems amiss. Insight is the best defence against cyber-attacks, and knowing the many forms these might take is paramount.</p>
+       <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">By choosing us to consult on your online security, you and your staff can learn everything there is to know about protecting your network.</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2 gradient-margin">
+        <div class="gradient-container">
+          <img src="img/leader.png" alt="">
+        </div>
+        
+      </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 gradient-margin">
+      <div class="gradient-container">
+        <img src="img/cyber-security.png" alt="">
+      </div>
+      
+    </div>
+    <div id="network" class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+      <div class="heading-container">
+        <h3 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Network Security And Monitoring</h3>
+        <div class="horizontal-line">
+          <div class="border-top-green"></div>
+          <div class="border-top-black"></div>
+        </div>
+      </div>
+      <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Companies can run into general network issues – especially if traffic is higher than anticipated. Having an expert team on hand to assess your system and diagnose any current or potential problem might be just what you need, as this could expose instabilities in your network that may slow it down. This is another core pillar of our service; we use our equipment to keep track of your network's overall performance and provide recommendations on how you can improve this. This data doesn't just help us respond to threats but also shows how you can speed up your system.</p>
+      <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Using penetration testing practices, we can simulate how a hacker would attack your website and assess how easy or difficult it would be for them. This lets you detect security issues long before anyone else can and gives you a chance to correct them and fortify your system until it's impenetrable. We test the network's defences and uncover what would be at threat if they gained access. We also run these tests as if we know nothing about your network; this 'black box testing' gives a more accurate simulation.</p>
+      <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">By letting Cypher monitor your network, we can ensure you understand how well-equipped it is to handle a range of security risks.</p>
+    </div>
+
+</div>
+<div class="row mb-5">
+
+  <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
+    <div class="heading-container">
+      <h3 class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">Let Us Help Improve 
+        Your Company's Cyber-Security</h3>
+      <div class="horizontal-line">
+        <div class="border-top-green"></div>
+        <div class="border-top-black"></div>
+      </div>
+    </div>
+   <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Cypher Solutions has everything it needs to strengthen your online network and give you actionable advice on how to approach any attempted or actual security breach. Even if something slips through the cracks, your data and revenue should be safe, with no downtime for your customers and staff.</p>
+   <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Clients choose us to guard their network due to our comprehensive testing, personable advice, and affordable service. Cypher does far more than recommend basic countermeasures – we take time to learn about your network and everything it needs for you and your business to thrive.</p>
+  </div>
+  <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2 gradient-margin">
+    <div class="gradient-container">
+      <img src="img/improvement.png" alt="">
+    </div>
+    
+  </div>
+</div>
+  </div>
+
+</section>
+
+<!-- *************************************************************************
+SECTION 5
+********************************************************************************-->
+
+
+
+<!-- *************************************************************************
+CONTACT FORM
+********************************************************************************-->
+<section class="section contact-section " id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  text-center">
+        <h2 class="mb-4">Get in touch with <br>
+          Cypher Solutions today</h2>
+        <p>Contact us if you want to learn more about our vital services and how they can help you and your company. With our experts ready to help, we can answer any questions you have or set you up for a network test as soon as possible. Cypher Solutions can boost your network and ensure it stays strong in the face of any digital threat. </p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <!-- contact form -->
+        <div class="contact-form-container wow animated fadeInRight pt-5 pt-md-0" data-wow-delay=".2s">
+          <form class="shake contact__form" role="form" method="post" action="contact.php" id="contactForm" name="contact-form" data-toggle="validator">
+
+
+               
+
+   
+              <!-- Name -->
+              <div class="form-group label-floating">
+                <input class="form-control" id="name" type="text" name="name"  required data-error="Please enter your name" placeholder="Please enter your name">
+                <div class="help-block with-errors"></div>
+              </div>
+              <!-- email -->
+              <div class="form-group label-floating">
+                <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email" placeholder="Please enter your Email">
+                <div class="help-block with-errors"></div>
+              </div>
+               <!-- Subject -->
+              <div class="form-group label-floating">
+                <input class="form-control" id="subject" type="text" name="subject" required data-error="Please enter your subject" placeholder="Please enter your subject">
+                <div class="help-block with-errors"></div>
+              </div>
+              <!-- Message -->
+              <div class="form-group label-floating">
+                  <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message" placeholder="Message"></textarea>
+                  <div class="help-block with-errors"></div>
+              </div>
+                                       <!--VALIDATION Captcha Code-->
+
+                                       <div class="col-lg-6 pl-0">
+                                        <div class="form-group d-flex cstm-group">
+                          
+                                            <img class="img-fluid" src="verification.php/rand=<?php echo rand(); ?>" id="captcha_image" style="width:26%; border-radius:10px; height: 45px; ">
+                                            <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:#000;text-decoration: underline;">click here</a> to refresh</p>
+                          
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-12 pl-0 pr-0">
+                                        <div class="form-group " style="padding-top: 0px">
+                                            <div class="comment-form__input-box" style="width:100%;">
+                                                <input type="text" name="captchacode" placeholder="Security Check" id="validation-code" style="width: 100%;" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+              <!-- Form Submit -->
+              <div class="form-submit mt-5">
+                  <button class="btn cs-btn-green rounded-0" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                  <div id="msgSubmit" class="h3 text-center hidden"></div>
+                  <div class="clearfix"></div>
+              </div>
+          </form>
+      </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- *************************************************************************
+FOOTER
+********************************************************************************-->
+<footer class="footer ">
+  <div class="container">
+    
+    <div class="row d-flex justify-content-center">
+      <img src="img/logo.png" alt="">
+    </div>
+
+    <div class="row d-flex justify-content-center">
+      <div  class=" mt-3 footer-link ">
+        <ul class="navbar-nav z-navbar-nav d-flex flex-row justify-content-center justify-content-sm-center justify-content-lg-end">
+          <li class="nav-item z-nav-item "><a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item z-nav-item "><a href="about.html" class="nav-link scroll-link">About</a></li>
+          <li class="nav-item z-nav-item "><a href="services.html" class="nav-link scroll-link" >Services</a></li>
+          <li class="nav-item z-nav-item "><a href="#contact" class="nav-link scroll-link" data-toggle="modal" data-target="#exampleModalCenter">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row d-flex justify-content-center"><p class=" pb-3">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Cypher Solutions. All Rights Reserved.</p></div>
+  </div>
+</footer>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<script src="js/customAnimation.js"></script>
+<script src="js/main.js"></script>
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+
+  
+  $('.mybtnLink').on('click', function(event) {
+    event.preventDefault(); 
+    var url = $(this).data('target');
+    location.replace(url);
+});
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+
+
+  </script>
+</body>
+</html>
+
