@@ -305,5 +305,9 @@ section{
  
 }
 
+.navbar>.container, .navbar>.container-fluid {
+
+  justify-content: space-evenly !important;
+}
 
 
