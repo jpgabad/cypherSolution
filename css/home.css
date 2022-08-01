@@ -1,0 +1,172 @@
+
+
+/********************************* HEADER **********************************************/
+.home-header{
+  margin-top: 150px !important;
+  background-color: var(--color4);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+  min-height: 560px;
+  background-image: url('../img/home-header-bg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-top: 100px;
+}
+
+.home-header h1{
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+
+/********************************* SECTION 1 **********************************************/
+.home-section1{
+  background-image: url('../img/b-g.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-top: 100px;
+  margin-top: -100px;
+  
+}
+
+.home-section1 .icon{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.home-section1 .icon img{
+ margin: auto;
+}
+
+.home-section1 p{
+  font-family: "roboto" !important;
+}
+
+
+.home-section1 .border-top-green{
+  width: 100%;
+  height: 5px;
+  background-color: var(--color1);
+  margin-bottom: 1rem;
+}
+
+.home-section1 .border-top-black{
+  width: 100%;
+  height: 5px;
+  background-color: var(--black);
+  margin-bottom: 1rem;
+}
+
+  /********************************* SECTION 2 **********************************************/
+.home-section2{
+  clip-path: polygon(0% 10%, 50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%);
+  background-color: var(--white);
+  padding-top: 100px;
+  margin-top: -100px;
+  height: 1000px;
+}
+
+  .home-section2 .section-heading{
+    margin-top: 2rem;
+  margin-bottom: 3rem;
+  }
+ 
+  .home-section2 .section-heading h2{
+    text-align: center;
+    color: var(--color1);
+  }
+
+  .home-section2 .button-container{
+    width: 100%;
+    text-align: center;
+
+  }
+
+
+  .home-section2 p{
+    font-family: "roboto" !important;
+  }
+  
+
+
+
+  /********************************* SECTION 3 **********************************************/
+.home-section3{
+  background-color: var(--color4);
+  background-image: url('../img/home-section-bg1.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% 120%; /* Resize the background image to cover the entire container */
+  margin-top: -100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.home-section3 .section-heading{
+  margin-top: 2rem;
+margin-bottom: 3rem;
+text-align: center;
+}
+
+.home-section3 h2, .home-section3 p{
+  color: var(--white);
+}
+
+
+.home-section3 p{
+  font-family: "roboto" !important;
+}
+
+
+.home-section3 .button-container{
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+
+}
+
+.home-section3 .button-container a{
+  padding: 20px;
+
+}
+
+
+  /********************************* SECTION 4 **********************************************/
+  .home-section4{
+    clip-path: polygon(0% 10%, 50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%);
+    background-color: var(--white);
+    padding-top: 100px;
+    margin-top: -100px;
+    height: 1000px;
+  }
+  
+    .home-section4 .section-heading{
+      margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    }
+   
+    .home-section4 .section-heading h2{
+      
+    }
+    
+.home-section4 p{
+  font-family: "roboto" !important;
+}
+
+  
+  
+  /********************************* SECTION 5 **********************************************/
+
+
+
+  .contact-section p{
+    font-family: "roboto" !important;
+  }
+  
+
+
+  
+.footer p{
+  font-family: "roboto" !important;
+}
