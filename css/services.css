@@ -70,12 +70,12 @@
   
   .black-bg{
     background-color: var(--black);
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 2rem 0rem 4rem 0rem;
   }
   
   .green-bg{
     background-color: var(--color1);
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 4rem 0rem 4rem 0rem;
   }
 
   .services-section1-mobile h2{
@@ -85,10 +85,15 @@
   }
   
   .services-section1-mobile{
-      background-color: var(--black);
+   
       padding-top: 0rem !important;
       padding-bottom: 0rem !important;
   
+    }
+
+    .services-section1-mobile  p{
+      padding: 0px !important;
+      margin: 0px !important;
     }
   
   .services-section1-mobile .icon{
