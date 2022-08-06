@@ -1,27 +1,36 @@
 /*FONT*/
 
-/*THIN*/
   @font-face {
-  font-family: "spartakus";
-  src: url("font/SparTakus.ttf");
+  font-family: "campton-light";
+  src: url("font/campton/CamptonLight.otf");
   }
 
+  
   @font-face {
-  font-family: "orbitron-light";
-  src: url("font/orbitron-light.otf");
-  }
+    font-family: "campton-regular";
+    src: url("font/campton/CamptonBook.otf");
+    }
+
+
+    
   @font-face {
-  font-family: "orbitron-medium";
-  src: url("font/orbitron-medium.otf");
-  }
+    font-family: "campton-medium";
+    src: url("font/campton/CamptonMedium.otf");
+    }
+
+    
   @font-face {
-  font-family: "orbitron-black";
-  src: url("font/orbitron-bold.otf");
-  }
+    font-family: "campton-bold";
+    src: url("font/campton/CamptonBold.otf");
+    }
+
+
+    
   @font-face {
-  font-family: "orbitron-black";
-  src: url("font/orbitron-black.otf");
-  }
+    font-family: "campton-black";
+    src: url("font/campton/CamptonBlack.otf");
+    }
+
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
@@ -37,8 +46,8 @@
   --white: #ffffff;
   --black: #121622;
   --gray: #c5c5c5;
-  --default-font: 'orbitron-medium', sans-serif;
-  --heading-font: 'spartakus', sans-serif;
+  --default-font: 'campton-regular', sans-serif;
+  --heading-font: 'campton-bold', sans-serif;
 
 }
 
@@ -87,7 +96,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-    overflow-x: hidden !important;
+  overflow-x: hidden !important;
+  
   
 }
 /*
@@ -115,10 +125,14 @@ select {
   */
 h1{
   font-size: 1.9rem;
+  font-family: 'campton-bold', sans-serif !important;
+  text-transform: uppercase;
 }
 
 h2{
   font-size: 1.7rem;
+  font-family: 'campton-bold', sans-serif !important;
+  text-transform: uppercase;
 }
 h3,
 h4,
@@ -127,12 +141,13 @@ h6 {
   overflow-wrap: break-word;
   color: var(--black);
   font-family: var(--heading-font) !important;
+  text-transform: uppercase;
 }
 
 p {
-  font-family: var(--default-font);
+  font-family: "campton-regular" !important;
   color: var(--black);
-  line-height: 2.5rem;
+  line-height: 1.5rem;
   font-weight: 400;
   font-size: 18px;
   
@@ -150,26 +165,26 @@ a{
   font-size: 1rem !important;
 }
 a:link {
-  color: var(--black) !important;
+  color: var(--white) !important;
   cursor: pointer;
 }
 a:hover {
-  color: var(--black) !important;
+  color: var(--white) !important;
   cursor: pointer;
 }
 a:visited {
-  color: var(--black);
+  color: var(--white);
   /*text-decoration: underline;
 	cursor: auto;*/
 }
 a:link:active {
   /*text-decoration: underline;*/ /*
 		color: (internal value);*/
-    color: var(--black) !important;
+    color: var(--white) !important;
 }
 a:visited:active {
 
-color: var(--black) !important;
+color: var(--white) !important;
 }
 
 
@@ -292,22 +307,31 @@ section{
 /* FOOTER */
 .footer{
   padding-top: 50px;
+  background-color: var(--black);
   
 }
 
 .footer ul li a, .footer p{
-  color: var(--black);
+  color: var(--white);
   font-size: .7rem;
+}
+
+.footer ul li a:hover{
+  color: var(--white) !important;
+}
+
+.footer ul li{
+  color: var(--white) !important;
 }
 
 .footer p {
   margin-top: 1rem;
- 
+ text-align: center;
 }
 
-.navbar>.container, .navbar>.container-fluid {
-
-  justify-content: space-evenly !important;
+.center-flex{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-

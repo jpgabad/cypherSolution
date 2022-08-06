@@ -1,7 +1,7 @@
 
 /********************************* ABOUT HEADER **********************************************/
 .about-header{
-    margin-top: 150px !important;
+  margin-top: 103.38px !important;
     background-color: var(--color4);
     max-height: 560px;
     background-image: url('../img/home-header-bg.png');
@@ -21,7 +21,7 @@
 
   .about-header p{
     line-height: 30px;
-    font-family: "roboto" !important;
+
   }
 
  
@@ -32,7 +32,7 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    padding-top: 100px;
+    padding-top: 60px;
     margin-top: -100px;
     
   }
@@ -49,7 +49,7 @@
 
   .about-section1 p{
     color: var(--white);
-    font-family: "roboto" !important;
+
   }
   
   
@@ -69,7 +69,44 @@
     margin-bottom: 1rem;
   }
 
+  
+  
+  .black-bg{
+    background-color: var(--black);
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  
+  .green-bg{
+    background-color: var(--color1);
+    padding: 4rem 2rem 4rem 2rem;
+  }
 
+  .about-section1-mobile h2{
+    text-align: center;
+    color: white !important;
+    margin: 0px;
+  }
+  
+  .about-section1-mobile{
+      background-color: var(--black);
+      padding-top: 0rem !important;
+      padding-bottom: 0rem !important;
+  
+    }
+  
+  .about-section1-mobile .icon{
+    padding-top: 2rem;
+  
+  }
+  
+  .about-section1-mobile .icon{
+    background-color: var(--black);
+  }
+  
+  .about-section1-mobile .icon img{
+    margin: auto;
+  }
+  
 
 
   /********************************* SECTION 2 **********************************************/
@@ -89,7 +126,7 @@
   }
 
 .about-section2 p{
-  font-family: "roboto" !important;
+  
 }
 
   .about-section2 .heading-container{
@@ -131,7 +168,7 @@
 }
 
 .about-section3 p{
-  font-family: "roboto" !important;
+
 }
 
 
@@ -150,12 +187,12 @@
 
 
 .contact-section p{
-  font-family: "roboto" !important;
+
 }
 
 
 
 
 .footer p{
-font-family: "roboto" !important;
+
 }

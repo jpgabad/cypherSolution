@@ -2,7 +2,7 @@
 
 /********************************* HEADER **********************************************/
 .home-header{
-  margin-top: 150px !important;
+  margin-top: 103.38px !important;
   background-color: var(--color4);
   clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
   min-height: 560px;
@@ -39,7 +39,7 @@
 }
 
 .home-section1 p{
-  font-family: "roboto" !important;
+ 
 }
 
 
@@ -57,14 +57,47 @@
   margin-bottom: 1rem;
 }
 
+
+.black-bg{
+  background-color: var(--black);
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.green-bg{
+  background-color: var(--color1);
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.home-section1-mobile{
+
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+
+  }
+
+.home-section1-mobile .icon{
+  padding-top: 2rem;
+
+}
+
+.home-section1-mobile .icon{
+  background-color: var(--black);
+}
+
+.home-section1-mobile .icon img{
+  margin: auto;
+}
+
   /********************************* SECTION 2 **********************************************/
 .home-section2{
   clip-path: polygon(0% 10%, 50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%);
   background-color: var(--white);
   padding-top: 100px;
   margin-top: -100px;
-  height: 1000px;
+  height: 820px;
 }
+
+
 
   .home-section2 .section-heading{
     margin-top: 2rem;
@@ -84,7 +117,7 @@
 
 
   .home-section2 p{
-    font-family: "roboto" !important;
+   
   }
   
 
@@ -114,7 +147,7 @@ text-align: center;
 
 
 .home-section3 p{
-  font-family: "roboto" !important;
+  
 }
 
 
@@ -133,11 +166,11 @@ text-align: center;
 
   /********************************* SECTION 4 **********************************************/
   .home-section4{
-    clip-path: polygon(0% 10%, 50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%);
+  
     background-color: var(--white);
     padding-top: 100px;
     margin-top: -100px;
-    height: 1000px;
+  
   }
   
     .home-section4 .section-heading{
@@ -151,7 +184,7 @@ text-align: center;
     }
     
 .home-section4 p{
-  font-family: "roboto" !important;
+
 }
 
   
@@ -161,12 +194,12 @@ text-align: center;
 
 
   .contact-section p{
-    font-family: "roboto" !important;
+  
   }
   
 
 
   
 .footer p{
-  font-family: "roboto" !important;
+
 }

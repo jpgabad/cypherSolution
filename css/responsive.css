@@ -1,15 +1,20 @@
-
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-    /*****************************************HEADER*************************************************************/
-        .navbar-brand .img{
-        width: 70% !important;
+/* iphone 6, 6s, 7, 8 */
+@media  (min-width: 375px) and (max-width: 499.98px) {
+    .navbar-brand img{
+        width: 50%;
     }
+
+
+    
     .home-header{
         text-align: center;
+        margin-top: 67.94px !important;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 105%, 50% 100%, 0% 105%);
+        min-height: 360px;
     }
+
     .home-header h1{
-        font-size: 1.5rem;
+        font-size: 25px;
     }
 
     /*****************************************SECTION 1*************************************************************/
@@ -24,13 +29,228 @@
         display: none;
       }
 
+      .home-section1 .icon {
+        margin-top: 2rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .home-section1 .icon img{
+       width: 20%;
+    }
+
+/********************************* SECTION 2 **********************************************/
+.home-section2{
+    clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+    background-color: var(--white);
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+
+.home-section2 h2{
+    font-size: 25px;
+}
+
+.home-section2 .mb-5{
+    margin-bottom: 0px !important;
+}
+
+.button-container {
+    margin-top: 1rem;
+ }
+
+ .button-container a {
+    font-size: 10px !important;
+}
+
+
+.home-section3 h2{
+    font-size: 25px;
+}
+
+/********************************* SECTION 4 **********************************************/
+.home-section4{
+    clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+
+    padding-top: 100px;
+    margin-top: -10px;
+
+}
+
+.home-section4 h2{
+    font-size: 25px;
+}
+
+
+/*****************************************ABOUT SECTION 1*************************************************************/
+
+
+
+.about-header{
+    margin-top: 67.94px !important;
+    min-height: 300px !important;
+}
+
+.about-section1{
+    background-image: url('../img/b-g-v.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+    }
+    .about-section1 .border-top-black{
+    display: none;
+    }
+
+    .about-section1 h2{
+        font-size: 25px !important;
+    }
+/*****************************************ABOUT SECTION 3*************************************************************/
+.about-section3 .row1{
+    margin-top: 2rem !important;
+}
+
+.about-section2 h2{
+    font-size: 25px;
+}
+.about-section3 h2{
+    font-size: 25px;
+}
+
+
+/*****************************************SERVICES SECTION 1*************************************************************/
+
+.services-header {
+    margin-top: 67.94px !important;
+    min-height: 300px !important;
+}
+
+.services-section1{
+    background-image: url('../img/b-g-v.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    }
+    .about-section1 .border-top-black{
+    display: none;
+    }
+
+    .services-section1 .border-top-black{
+display: none;
+        }
+
+    .services-section1 h2{
+        font-size: 25px;
+    }
+
+
+  /*****************************************services SECTION 2*************************************************************/
+
+
+  .services-section2{
+    background-image: url('../img/b-g-v.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+  }
+  .services-section2 .border-top-black{
+    background-color: var(--color1);
+  }
+
+  .services-section2 .border-top-green{
+    display: none;
+  }
+
+  .services-section2 h2{
+    font-size: 25px;
+  }
+
+  .services-section2 .icon {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services-section3 h2{
+    font-size: 25px;
+}
+
+.services-section4 h2{
+    font-size: 25px;
+}
+  
+.contact-section h2{
+    font-size: 25px;
+}
+
+.services-section4 .gradient-margin{
+    margin-bottom: 3rem;
+}
+
+
+.services-section4 .gradient-container{
+    padding: 3rem;
+}
+
+footer ul li a{
+    font-size: 10px !important;
+}
+
+
+
+
+}
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 500px) and (max-width: 575.98px) {
+    /*****************************************HEADER*************************************************************/
+    .navbar-brand .img{
+        width: 70% !important;
+    }
+    .home-header{
+        text-align: center;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 105%, 50% 100%, 0% 105%);
+        min-height: 360px;
+    }
+    .home-header h1{
+        font-size: 1.5rem;
+    }
+    
+
+    /*****************************************SECTION 1*************************************************************/
+    .home-section1{
+        background-image: url('../img/b-g-v.png');
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+
+      }
+      .home-section1 .border-top-black{
+        display: none;
+      }
+
+      .home-section1 .icon img{
+        width: 20%;
+     }
+     .home-section1 .icon {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+     
+ 
+
 /********************************* SECTION 2 **********************************************/
 .home-section2{
     clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
     background-color: var(--white);
     padding-top: 100px;
     margin-top: -10px;
-    height: 1350px;
+
+
 }
 
 .button-container {
@@ -47,11 +267,16 @@
 
     padding-top: 100px;
     margin-top: -10px;
-    height: 1350px;
+ 
 }
 
 
 /*****************************************ABOUT SECTION 1*************************************************************/
+.about-header{
+    min-height: 300px !important;
+}
+
+
 .about-section1{
     background-image: url('../img/b-g-v.png');
     background-position: center; /* Center the image */
@@ -80,13 +305,21 @@
     display: none;
     }
 
+    .services-section1 .border-top-black{
+        display: none;
+        }
+
   /*****************************************services SECTION 2*************************************************************/
+        .services-header{
+            min-height: 300px !important;
+        }
+
   .services-section2{
     background-image: url('../img/b-g-v.png');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-
+    padding-top: 10px;
   }
   .services-section2 .border-top-black{
     background-color: var(--color1);
@@ -107,6 +340,10 @@
     padding: 3rem;
 }
 
+footer ul li a{
+    font-size: 14px !important;
+}
+
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -114,13 +351,15 @@
 /*****************************************HEADER*************************************************************/
     .home-header{
         text-align: center;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 105%, 50% 100%, 0% 105%);
+        min-height: 360px;
     }
     .home-header h1{
         font-size: 1.5rem;
     } 
 /*****************************************SECTION 1*************************************************************/
     .home-section1{
-        background-image: url('../img/b-g-v.png');
+        background-image: url('../img/b-g-v1.png');
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
@@ -134,9 +373,9 @@
     .home-section2{
         clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
         background-color: var(--white);
-        padding-top: 100px;
+        padding-top: 30px;
         margin-top: -10px;
-        height: 1300px;
+
     
     }
 
@@ -152,10 +391,14 @@
 .home-section4{
     clip-path: polygon(0% 0%, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
 
-    padding-top: 100px;
+    padding-top: 30px;
     margin-top: -10px;
-    height: 1300px;
+   
 
+}
+
+.home-section4 .section-heading {
+    margin-bottom: 0rem;
 }
 
 
@@ -164,11 +407,16 @@
 
 
 /*****************************************ABOUT SECTION 1*************************************************************/
+.about-header{
+    min-height: 300px !important;
+}
+
 .about-section1{
     background-image: url('../img/b-g-v.png');
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    
 
   }
   .about-section1 .border-top-black{
@@ -185,7 +433,12 @@
 
 
 
+
 /*****************************************services SECTION 1*************************************************************/
+.services-header{
+    min-height: 300px !important;
+}
+
 .services-section1{
     background-image: url('../img/b-g-v.png');
     background-position: center; /* Center the image */
@@ -244,7 +497,7 @@
     background-color: var(--white);
     padding-top: 100px;
     margin-top: -10px;
-    height: 1100px;
+ 
 
 }
  /********************************* SECTION 3 **********************************************/
@@ -259,7 +512,7 @@
 
     padding-top: 100px;
     margin-top: -10px;
-    height: 1100px;
+ 
 
 }
 
@@ -280,7 +533,7 @@
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .home-section2{
-        height: 1140px;
+        
     
     }
 

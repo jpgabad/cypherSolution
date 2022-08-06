@@ -642,11 +642,13 @@ select.form-control[multiple] {
 }
 
 #contactForm .form-group label.control-label {
-    color: var(--darkBlueGray)
+    color: var(--color4);
+    font-weight: 900;
 }
 
 .onpage #contactForm .form-group label.control-label {
-    color: var(--white)
+    color: var(--white);
+    
 }
 
 #contactForm .form-control {
