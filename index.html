@@ -22,8 +22,8 @@
   <meta name="theme-color" content="#ffffff">
 
   <title>Cypher Solutions - Home</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-icons.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/nav-styles.css"> 
@@ -37,24 +37,17 @@
 </head>
 <body>
 
-
-    <!-- NAVBAR 1-->
-    <nav
-      class="z-navbar1 navbar navbar-expand-lg py-3 navbar-light  shadow-  fixed-top onscroll-show"
-      animate="nav1"
-      id="navbar1"
-    >
-      <div class="container z-navbar-container">
-        <a href="index.html" class="navbar-brand">
+      <!-- NAVBAR 1-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ">
+      <!-- LOGO HERE -->
+        <a  class="navbar-brand">
           <!-- Logo Image -->
           <img
             src="img/logo.png"
-            width="70%"
+            width="100%"
             alt=""
-            class="d-inline-block align-middle mr-2 wow animate__animated animate__fadeInDown " data-wow-delay="100ms"
+            class="d-inline-block align-middle mr-2 "
           />
-          <!-- Logo Text --><!-- 
-      <span class="text-uppercase font-weight-bold">Company</span> -->
         </a>
 
         <button
@@ -68,18 +61,20 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+
+
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
           <ul class="navbar-nav z-navbar-nav ml-auto text-uppercase">
             <li class="nav-item z-nav-item active">
-              <a href="index.html" class="nav-link  wow animate__animated animate__fadeInDown " data-wow-delay="100ms"
+              <a  class="nav-link "
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item z-nav-item">
-              <a href="about.html" class="nav-link scroll-link  wow animate__animated animate__fadeInDown " data-wow-delay="200ms">About</a>
+              <a href="about.html" class="nav-link scroll-link ">About</a>
             </li>
             <li class="nav-item z-nav-item">
-              <a href="services.html" class="nav-link scroll-link  wow animate__animated animate__fadeInDown " data-wow-delay="300ms">Services</a>
+              <a href="services.html" class="nav-link scroll-link ">Services</a>
             </li>
             <!-- <li class="nav-item z-nav-item">
               <a href="" class="nav-link scroll-link">Testimonials</a>
@@ -87,7 +82,7 @@
             <li class="nav-item">
               <button
                 type="button"
-                class="btn js__btn-violet rounded-0  wow animate__animated animate__fadeInDown " data-wow-delay="400ms"
+                class="btn js__btn-violet rounded-0  "
                 data-toggle="modal"
                 data-target="#exampleModalCenter"
               >
@@ -96,67 +91,6 @@
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-
-    <!-- NAVBAR 2 ONSCROLL -->
-    <nav
-      class="navbar navbar-expand-lg py-3 navbar-dark z-navbar-bg-onscroll z-navbar2 shadow- fixed-top"
-      animate="nav2"
-      id="navbar2"
-    >
-      <div class="container-fluid z-navbar-container-onscroll">
-        <a href="index.html" class="navbar-brand">
-          <!-- Logo Image -->
-          <img
-            src="img/logo2.png"
-            width="70%"
-            alt=""
-            class="d-inline-block align-middle mr-2"
-          />
-          <!-- Logo Text --><!-- 
-      <span class="text-uppercase font-weight-bold">Company</span> -->
-        </a>
-
-        <button
-          type="button"
-          data-toggle="collapse"
-          onclick="openNav()" type="button"
-          aria-label="Toggle navigation"
-          class="navbar-toggler mr-3"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div id="navbarSupportedContent2" class="collapse navbar-collapse">
-          <ul class="navbar-nav z-navbar-nav ml-auto text-uppercase">
-            <li class="nav-item z-nav-item active">
-              <a href="index.html" class="nav-link"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item z-nav-item">
-              <a href="about.html" class="nav-link scroll-link">About</a>
-            </li>
-            <li class="nav-item z-nav-item">
-              <a href="services.html" class="nav-link scroll-link">Services</a>
-            </li>
-            <!-- <li class="nav-item z-nav-item">
-              <a href="" class="nav-link scroll-link">Testimonials</a>
-            </li> -->
-            <li class="nav-item">
-              <button
-                type="button"
-                class="btn js__btn-violet rounded-0"
-                data-toggle="modal"
-                data-target="#exampleModalCenter"
-              >
-                Contact Us
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
     </nav>
 
  
@@ -166,10 +100,10 @@
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-      <a href="index.html">Home</a>
+      <a >Home</a>
       <a href="about.html">About Us</a>
       <a href="services.html">Services</a>
-      <a href="#contact" style="color: #0B3954;">Contact Us</a>
+      <a href="#contact" data-toggle="modal" data-target="#exampleModalCenter"style="color: #0B3954;">Contact Us</a>
     </div>
   </div>
 
@@ -179,10 +113,14 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title heading3" id="exampleModalLongTitle">CYPHER SOLUTIONS</h5>
+          <img src="img/logo.png" width="40%" alt="">
+
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
+        </div>
+        <div class="modal-header">
+          <p>If you require a high-tech cyber-security service that meets your company's unique needs, get in touch with Cypher Solutions today. </p>
         </div>
         <div class="modal-body">
           
@@ -229,7 +167,7 @@
                           <div class="form-group mt-20 cstm-group">
             
                               <img class="img-fluid" src="verification.php/rand=<?php echo rand(); ?>" id="captcha_image" style="width:26%; border-radius:10px; height: 45px; ">
-                              <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:#000;text-decoration: underline;">click here</a> to refresh</p>
+                              <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:var(--color1) !important;text-decoration: underline;">click here</a> to refresh</p>
             
                           </div>
                       </div>
@@ -243,7 +181,7 @@
 
             <div class="modal-footer border-0">
           <!-- Submit button -->
-            <button type="submit" class="btn btn--gradient hvr-fade mb-4 pl-5 pr-5">Send</button>
+            <button type="submit" class="btn js__btn-violet rounded-0   hvr-fade mb-4 pl-5 pr-5">Send</button>
         </div>
         </form>
        
@@ -282,7 +220,7 @@ HEADER
 <!-- *************************************************************************
 SECTION 1
 ********************************************************************************-->
-<section class="home-section1">
+<section class="home-section1 d-none d-sm-none d-md-block d-lg-block d-xl-block">
 
   <div class="container">
     <div class="icon">
@@ -296,6 +234,27 @@ SECTION 1
   </div>
 </section>
 
+<section class="home-section1-mobile d-block d-sm-block d-md-none d-lg-none d-xl-none">
+
+  <div class="container-fluid">
+    <div class="icon">
+      <img src="img/shield.png" alt="" class=" wow animate__animated animate__fadeInDown " data-wow-delay="100ms">
+    </div>
+
+    <div class="row">
+      <div class="black-bg">
+      <div class="col-12  pl-md-2 pr-md-3 pl-lg-5 pr-lg-5 mb-5"><div class="border-top-green"></div><p class="text-white  wow animate__animated animate__fadeIn " data-wow-delay="100ms">Cypher Solutions is devoted to ensuring all our clients can confidently tackle the digital world without typical security threats or concerns. The online frontier is constantly changing, with new advances every day, making it more critical than ever to invest in the best possible security solutions so your business can thrive today and into the future.</p></div>
+    </div>
+      <div class="green-bg">
+      <div class="col-12   pl-md-3 pr-md-2 pl-lg-5 pr-lg-5"><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Any person or company could easily be the target of an online scam, virus or data hack, making it vital that you have someone in your corner who can keep your sensitive information and data completely safe. At Cypher, we can quickly help revitalise your cyber-security and ensure it stays protected always.</p></div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 <!-- *************************************************************************
 SECTION 2
 ********************************************************************************-->
@@ -307,15 +266,18 @@ SECTION 2
     </div>
     <div class="row">
       
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  pl-md-2 pr-md-3 pl-lg-5 pr-lg-5 mb-5"><div class="border-top-green"></div><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">We are committed to keeping you safe and know exactly how to provide actionable information to help your firm's digital side operate without any major issues. The amount of online business has massively increased in recent years, making it essential that your firm has robust security and a plan to deal with any possible network crisis.</p></div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   pl-md-3 pr-md-2 pl-lg-5 pr-lg-5"><div class="border-top-black"></div><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Our team helps companies recover from digital disasters efficiently and quickly, with minimal to no data loss. We also work closely with each client to ensure we understand their systems and network better than any potential security risk. Above all else, your infrastructure will be free from danger.</p></div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  pl-md-2 pr-md-3 pl-lg-5 pr-lg-5 mb-2"><div class="border-top-green"></div><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">We are committed to keeping you safe and know exactly how to provide actionable information to help your firm's digital side operate without any major issues. The amount of online business has massively increased in recent years, making it essential that your firm has robust security and a plan to deal with any possible network crisis.</p></div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6   pl-md-3 pr-md-2 pl-lg-5 pr-lg-5"><div class="border-top-green"></div><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Our team helps companies recover from digital disasters efficiently and quickly, with minimal to no data loss. We also work closely with each client to ensure we understand their systems and network better than any potential security risk. Above all else, your infrastructure will be free from danger.</p></div>
    
     </div>
-    <div class="button-container">
+    <div class="button-container d-none d-sm-block d-md-block d-lg-block d-xl-block mt-5">
        <a class="cs-btn-green" href="services.html#network">Learn more about our Network Security and Monitoring</a>
     </div>
   </div>
 </section>
+
+
+
 
 
 <!-- *************************************************************************
@@ -329,12 +291,12 @@ SECTION 3
     </div>
     <div class="row mb-5">
       
-      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1 "><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Our experts are at the cutting edge of online security and networking, which means they know about the latest online threats. Everything from phishing scams, to new types of malware, to DDoS attacks and server exploiting bugs come under our jurisdiction – giving us the knowledge we need to protect your company.</p></div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1 center-flex"><p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">Our experts are at the cutting edge of online security and networking, which means they know about the latest online threats. Everything from phishing scams, to new types of malware, to DDoS attacks and server exploiting bugs come under our jurisdiction – giving us the knowledge we need to protect your company.</p></div>
       <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2 mb-5"><img class="mx-auto  wow animate__animated animate__fadeIn" data-wow-delay="100ms" src="img/img1.png" alt=""></div>
     </div>
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-5"><img class="mx-auto  wow animate__animated animate__fadeIn" data-wow-delay="100ms" src="img/img2.png" alt=""></div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 "><p class=" wow animate__animated animate__fadeIn" data-wow-delay="100ms">Cypher Solutions provides active and constant support to our clients. If a new virus or fraud email emerges and begins to plague the online world, we can inform you about its risks and how to avoid it. We don't just tackle malware and exploits; we teach you how to conduct business safely and smartly.</p></div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 center-flex"><p class=" wow animate__animated animate__fadeIn" data-wow-delay="100ms">Cypher Solutions provides active and constant support to our clients. If a new virus or fraud email emerges and begins to plague the online world, we can inform you about its risks and how to avoid it. We don't just tackle malware and exploits; we teach you how to conduct business safely and smartly.</p></div>
       
     </div>
 
@@ -358,7 +320,7 @@ SECTION 4
       All Sizes</h2>
     </div>
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1 ">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1 center-flex">
         
           <p class=" wow animate__animated animate__fadeIn " data-wow-delay="100ms">We treat every client with the same dedication and sensitivity because we know companies of all sizes need strong cyber-security measures in place. No matter your network's scale, we use specialist tools to monitor its performance across the board, letting us check for vulnerabilities and provide feedback on how to make it more resilient.</p>
       </div>
@@ -370,78 +332,6 @@ SECTION 4
 </section>
 
 
-
-
-<!-- *************************************************************************
-CONTACT FORM
-********************************************************************************-->
-<section class="section contact-section " id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  text-center">
-        <h2>Contact Us</h2>
-        <p>If you require a high-tech cyber-security service that meets your company's unique needs, get in touch with Cypher Solutions today. </p>
-      </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <!-- contact form -->
-        <div class="contact-form-container wow animated fadeInRight pt-5 pt-md-0" data-wow-delay=".2s">
-          <form class="shake contact__form" role="form" method="post" action="contact.php" id="contactForm" name="contact-form" data-toggle="validator">
-
-
-               
-
-   
-              <!-- Name -->
-              <div class="form-group label-floating">
-                <input class="form-control" id="name" type="text" name="name"  required data-error="Please enter your name" placeholder="Please enter your name">
-                <div class="help-block with-errors"></div>
-              </div>
-              <!-- email -->
-              <div class="form-group label-floating">
-                <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email" placeholder="Please enter your Email">
-                <div class="help-block with-errors"></div>
-              </div>
-               <!-- Subject -->
-              <div class="form-group label-floating">
-                <input class="form-control" id="subject" type="text" name="subject" required data-error="Please enter your subject" placeholder="Please enter your subject">
-                <div class="help-block with-errors"></div>
-              </div>
-              <!-- Message -->
-              <div class="form-group label-floating">
-                  <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message" placeholder="Message"></textarea>
-                  <div class="help-block with-errors"></div>
-              </div>
-                                       <!--VALIDATION Captcha Code-->
-
-                                       <div class="col-lg-6 pl-0">
-                                        <div class="form-group d-flex cstm-group">
-                          
-                                            <img class="img-fluid" src="verification.php/rand=<?php echo rand(); ?>" id="captcha_image" style="width:26%; border-radius:10px; height: 45px; ">
-                                            <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:#000;text-decoration: underline;">click here</a> to refresh</p>
-                          
-                                        </div>
-                                      </div>
-                                      <div class="col-lg-12 pl-0 pr-0">
-                                        <div class="form-group " style="padding-top: 0px">
-                                            <div class="comment-form__input-box" style="width:100%;">
-                                                <input type="text" name="captchacode" placeholder="Security Check" id="validation-code" style="width: 100%;" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-              <!-- Form Submit -->
-              <div class="form-submit mt-5">
-                  <button class="btn cs-btn-green rounded-0" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
-                  <div id="msgSubmit" class="h3 text-center hidden"></div>
-                  <div class="clearfix"></div>
-              </div>
-          </form>
-      </div>
-
-
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- *************************************************************************
 FOOTER
@@ -456,7 +346,7 @@ FOOTER
     <div class="row d-flex justify-content-center">
       <div  class=" mt-3 footer-link ">
         <ul class="navbar-nav z-navbar-nav d-flex flex-row justify-content-center justify-content-sm-center justify-content-lg-end">
-          <li class="nav-item z-nav-item "><a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item z-nav-item "><a  class="nav-link">Home <span class="sr-only">(current)</span></a></li>
           <li class="nav-item z-nav-item "><a href="about.html" class="nav-link scroll-link">About</a></li>
           <li class="nav-item z-nav-item "><a href="services.html" class="nav-link scroll-link" >Services</a></li>
           <li class="nav-item z-nav-item "><a href="#contact" class="nav-link scroll-link" data-toggle="modal" data-target="#exampleModalCenter">Contact Us</a></li>
@@ -479,13 +369,13 @@ FOOTER
 <script src="js/customAnimation.js"></script>
 <script src="js/main.js"></script>
 <script>
-  function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-  }
+  // function openNav() {
+  //   document.getElementById("myNav").style.height = "100%";
+  // }
   
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-  }
+  // function closeNav() {
+  //   document.getElementById("myNav").style.height = "0%";
+  // }
 
   
   $('.mybtnLink').on('click', function(event) {
@@ -494,12 +384,31 @@ FOOTER
     location.replace(url);
 });
 
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
+gsap.to("#docs1", {
+  duration: 2,
+  y: -55,
+  ease: "none",
+  repeat: -1,
+  repeatDelay: 0,
+  yoyo: true,
 });
+
+
+gsap.to("#shield", {
+  duration: 3,
+  y: -75,
+  ease: "none",
+  repeat: -1,
+  repeatDelay: 0,
+  yoyo: true,
+});
+
+// $(function () {
+//   $(document).scroll(function () {
+//     var $nav = $(".fixed-top");
+//     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//   });
+// });
 
 
 
